@@ -3,7 +3,6 @@ import {browserHistory} from 'react-router';
 import Header from './Header';
 import Footer from './Footer';
 import Today from './Today';
-import Profile_previousBallots from './Profile_previousBallots';
 import ProfileNav from './ProfileNav';
 
 const Profile = props => {  

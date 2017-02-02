@@ -5,9 +5,9 @@ class Footer extends React.Component {
     	return (
 	        <footer>
 	          <ul>
-	            <a href="#"><li>About</li></a>
-	            <a href="#"><li>Careers</li></a>
-	            <a href="#"><li>Partner With Us</li></a>
+	            <a href="/About"><li>About</li></a>
+	            <a href="/Careers"><li>Careers</li></a>
+	            <a href="/Partner"><li>Partner With Us</li></a>
 	          </ul>
 	        </footer>
    		)

@@ -23,7 +23,8 @@ class Today extends Component {
 		    	<div className="today">
 				    <form onSubmit={this.handleSubmit}>
 					    <h1>Today's Ballot Question</h1>
-					    <p>Should Trump build the wall?</p>
+					    <p>Should Trump build the wall on the Mexican border?</p>
+					   <a target="_blank" href="/learn"><h5>What does this mean?</h5></a>
 			          		<button type="submit">Yes!</button>
 			          		<button type="submit">No!</button>
 			        </form>

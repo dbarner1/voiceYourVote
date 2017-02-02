@@ -9,7 +9,7 @@ import Login from "../components/Login";
 import Profile from "../components/Profile";
 import Today from "../components/Today";
 import City from "../components/City";
-
+import Learn from "../components/Learn";
 //Routes
 
 const routes = (
@@ -20,6 +20,7 @@ const routes = (
 	  	<Route path="/profile/:name" component={Profile} />
 	  	<Route path="/today" component={Today} />
 	  	<Route path="/city" component={City} />
+	  	<Route path="/learn" component={Learn}/>
 		<Route path="*" component={NotFound}/>
   	</Router>
 );

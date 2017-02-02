@@ -31,8 +31,10 @@ button {
 	color:white;
 	width:100vw;
 	margin:0 auto;
-	height:100vh;
+	min-height:100vh;
 	font-family: 'Poppins', sans-serif;
+
+
 
 	a {
 		color:white;
@@ -120,24 +122,81 @@ button {
 			color:black;
 		}
 
+		form {
+			background-color:rgba(0,0,0,.5);
+			padding:2vw;	
+		}
+
 		input {
+			display:block;
 			color:black;
 			width:20vw;
-			margin:0 auto;
+			margin:10px auto;
+		}
+
+	}
+
+	.Login {
+		display:flex;
+		flex-direction:column;
+		justify-content:top;
+		margin-top:5vh;
+		width:50vw;
+		min-height:60vh;
+		margin:5vh auto;
+		text-align:center;
+		color:black;
+
+		header {
+			color:black;
+		}
+
+		form {
+			background-color:rgba(0,0,0,.5);
+			padding:2vw;	
+		}
+
+		input {
+			display:block;
+			color:black;
+			width:20vw;
+			margin:10px auto;
 		}
 
 	}
 
 	.profile {
 		display:flex;
-		flex-direction:column;
+		flex-direction:row;
 		width:100vw;
-		height:90vh;
+		min-height:80vh;
 		margin:0 auto;
 		text-align:center;
 		background-size:100%;
 		background-position:top;
 		color:black;
+
+		.profileNav {
+			display:flex;
+			flex-direction:column;
+			padding-top:10vh;
+		}
+
+		h1 {
+			margin-top:30vh;
+			margin-left:10vw;
+		}
+
+		button {
+			margin:10px;	
+			padding:0;
+			min-height:50px;
+
+			h2 {
+				margin:0;
+				padding:0;
+			}
+		}
 
 		.profileNav {
 			display:flex;
@@ -177,6 +236,11 @@ button {
 				}
 		}
 
+		h5 {
+			margin:0;
+			color:rgba(0,0,0,.5	);
+		}
+
 		p {
 			font-size:2vw;
 		}
@@ -192,9 +256,18 @@ button {
 		min-height:40vh;
 		width:80vw;
 
-		h1 {
-			font-size:4vw;
-			margin-bottom:5vh;
+		button {
+			width:10vw;	
+			padding:0;
+		}
+
+		h2 {
+			font-size:2vw;
+			margin-top:5vh;
+		}
+
+		h3 {
+			margin:0;
 		}
 
 		p {
@@ -204,7 +277,7 @@ button {
 
 	footer {
 		background-color:rgba(0,0,0,.4);
-		height:8vh;
+		height:10vh;
 
 		ul {
 			width:50vw;
@@ -218,6 +291,34 @@ button {
 			margin-right:20px;
 		}
 	}
+
+	.learn {
+		text-align:center;	
+		margin-bottom:40vh;
+
+		.options {
+			background-color:white;
+			min-height:20vh;
+			width:40vw;
+			margin:0 auto;
+			color:black;
+		}
+	}
+
+	.notFound {
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		margin-top:3vw;
+		
+		h3 {
+			color:darkred;
+			width:100vw;
+			text-align:center;	
+			margin:0;
+		}
+	}
+
 
 }//!GLOBAL WRAPPER
 

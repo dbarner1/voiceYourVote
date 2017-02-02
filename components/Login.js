@@ -2,13 +2,20 @@ import React, { Component } from 'react';
 import {browserHistory} from 'react-router';
 import Header from './Header';
 import Footer from './Footer';
+import Login_hero from './Login_hero';
 
 class Login extends Component {  
   	render() {
+
+  		const imgUrl = "../assets/flag.png";
+   		const backgroundStyle = {
+  			backgroundImage: 'url(' + imgUrl + ')',
+		};
+
 	    return (
-	      <div className='application'>
+	      <div className='application' style={backgroundStyle}>
 		       <Header />
-		       <h1>This is the login page!</h1>
+		       <Login_hero />
 		       <Footer />
 	      </div>
 	    );
