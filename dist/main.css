@@ -1,0 +1,154 @@
+h1, h2, p {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-repeat: no-repeat; }
+
+button {
+  background-color: rgba(7, 0, 240, 0.7);
+  border: 0;
+  color: white;
+  margin: 15px;
+  min-height: 100px;
+  width: 25vw;
+  min-width: 200px; }
+  button h2 {
+    font-size: 3vw; }
+
+.application {
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  background-size: 100%;
+  background-position: top;
+  color: white;
+  width: 100vw;
+  margin: 0 auto;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif; }
+  .application a {
+    color: white; }
+  .application a:hover {
+    color: #ba4328;
+    transition: .4s; }
+  .application header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5); }
+    .application header h1 {
+      display: inline-block;
+      width: 400px;
+      font-size: 2.2vw;
+      margin: 10px 0 0 30px; }
+    .application header nav {
+      display: inline-block;
+      float: right;
+      margin-right: 5%; }
+      .application header nav ul {
+        margin: 0; }
+        .application header nav ul li {
+          display: inline-block;
+          margin-left: 40px; }
+          .application header nav ul li h2 {
+            font-size: 2vw;
+            margin: 10px 0 0 0; }
+  .application .hero {
+    text-align: center;
+    min-height: 70vh;
+    margin-top: 20px; }
+    .application .hero a:hover h2 {
+      font-size: 2.5vw;
+      transition: .4s; }
+    .application .hero button {
+      background-color: rgba(7, 0, 240, 0.7);
+      border: 0;
+      color: white;
+      margin-top: 15px;
+      padding: 20px; }
+      .application .hero button h2 {
+        font-size: 2vw;
+        margin: 0; }
+  .application .Signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    margin-top: 5vh;
+    width: 50vw;
+    min-height: 60vh;
+    margin: 5vh auto;
+    text-align: center;
+    color: black; }
+    .application .Signup header {
+      color: black; }
+    .application .Signup input {
+      color: black;
+      width: 20vw;
+      margin: 0 auto; }
+  .application .profile {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+    margin: 0 auto;
+    text-align: center;
+    background-size: 100%;
+    background-position: top;
+    color: black; }
+    .application .profile .profileNav {
+      display: flex;
+      flex-direction: column;
+      margin: 5vh auto 0 auto; }
+  .application .today {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto 30vh auto;
+    color: black; }
+    .application .today h1 {
+      font-size: 4vw;
+      margin-bottom: 5vh; }
+    .application .today form {
+      display: flex;
+      flex-direction: column; }
+    .application .today button {
+      margin: 15px auto; }
+    .application .today button:hover {
+      font-size: 2.5vw;
+      transition: .4s; }
+      .application .today button:hover button {
+        width: 100vw;
+        transition: .4s; }
+    .application .today p {
+      font-size: 2vw; }
+  .application .city {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10vh auto 10vh auto;
+    padding: 4vw;
+    color: black;
+    min-height: 40vh;
+    width: 80vw; }
+    .application .city h1 {
+      font-size: 4vw;
+      margin-bottom: 5vh; }
+    .application .city p {
+      font-size: 2vw; }
+  .application footer {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 8vh; }
+    .application footer ul {
+      width: 50vw;
+      margin: 10px auto 0 auto;
+      text-align: center; }
+    .application footer li {
+      display: inline-block;
+      margin-left: 20px;
+      margin-right: 20px; }
+
+/*# sourceMappingURL=main.css.map */
